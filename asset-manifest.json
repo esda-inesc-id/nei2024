@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.ade3c7d7.css",
-    "main.js": "/static/js/main.191e43fa.js",
-    "static/js/453.ec991295.chunk.js": "/static/js/453.ec991295.chunk.js",
-    "static/media/app-img.png": "/static/media/app-img.084f5235a002c0843aee.png",
-    "static/media/conv_anim.gif": "/static/media/conv_anim.fd4830369bf2455c71e9.gif",
-    "static/media/NEI.png": "/static/media/NEI.c219618702519ffd1aca.png",
-    "static/media/a.png": "/static/media/a.7125cc16eec9f56b8a04.png",
-    "static/media/s.png": "/static/media/s.64644bd653e51c62ad18.png",
-    "static/media/rui.duarte.png": "/static/media/rui.duarte.7b3e34c1b4259613e7e7.png",
-    "static/media/gustavo.jacinto.png": "/static/media/gustavo.jacinto.61c465af2d018bb6754e.png",
-    "static/media/ussumane.soare.png": "/static/media/ussumane.soare.251e61abf6c7fb7c3771.png",
-    "static/media/trophy.svg": "/static/media/trophy.1867c9c0a56053920fec88adfac9689f.svg",
-    "static/media/cross.svg": "/static/media/cross.64ac5b6dc1c9701eeef7a0579cbb3a81.svg",
-    "static/media/checked-tick.svg": "/static/media/checked-tick.88f7ca275c293991cc7c30eccffbf986.svg",
-    "static/media/Neural_network.svg": "/static/media/Neural_network.97208c3e6ae24ba8a2bd455966c2786a.svg",
-    "index.html": "/index.html",
-    "main.ade3c7d7.css.map": "/static/css/main.ade3c7d7.css.map",
-    "main.191e43fa.js.map": "/static/js/main.191e43fa.js.map",
-    "453.ec991295.chunk.js.map": "/static/js/453.ec991295.chunk.js.map"
+    "main.css": "./static/css/main.ade3c7d7.css",
+    "main.js": "./static/js/main.ea4053d2.js",
+    "static/js/453.ec991295.chunk.js": "./static/js/453.ec991295.chunk.js",
+    "static/media/app-img.png": "./static/media/app-img.084f5235a002c0843aee.png",
+    "static/media/conv_anim.gif": "./static/media/conv_anim.fd4830369bf2455c71e9.gif",
+    "static/media/NEI.png": "./static/media/NEI.c219618702519ffd1aca.png",
+    "static/media/a.png": "./static/media/a.7125cc16eec9f56b8a04.png",
+    "static/media/s.png": "./static/media/s.64644bd653e51c62ad18.png",
+    "static/media/rui.duarte.png": "./static/media/rui.duarte.7b3e34c1b4259613e7e7.png",
+    "static/media/gustavo.jacinto.png": "./static/media/gustavo.jacinto.61c465af2d018bb6754e.png",
+    "static/media/ussumane.soare.png": "./static/media/ussumane.soare.251e61abf6c7fb7c3771.png",
+    "static/media/trophy.svg": "./static/media/trophy.1867c9c0a56053920fec88adfac9689f.svg",
+    "static/media/cross.svg": "./static/media/cross.64ac5b6dc1c9701eeef7a0579cbb3a81.svg",
+    "static/media/checked-tick.svg": "./static/media/checked-tick.88f7ca275c293991cc7c30eccffbf986.svg",
+    "static/media/Neural_network.svg": "./static/media/Neural_network.0d99f4ce0bb718df3354720b7fc03dcb.svg",
+    "index.html": "./index.html",
+    "main.ade3c7d7.css.map": "./static/css/main.ade3c7d7.css.map",
+    "main.ea4053d2.js.map": "./static/js/main.ea4053d2.js.map",
+    "453.ec991295.chunk.js.map": "./static/js/453.ec991295.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ade3c7d7.css",
-    "static/js/main.191e43fa.js"
+    "static/js/main.ea4053d2.js"
   ]
 }
