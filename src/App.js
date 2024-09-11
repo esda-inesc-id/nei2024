@@ -181,7 +181,7 @@ function App() {
               <div className='question-img'>
                 <img src={isHardMode ? questionSet[questions[currentQuestion]].harderImg : questionSet[questions[currentQuestion]].questionImg} />
               </div>
-              <div className='question-text'>{questionSet[questions[currentQuestion]].questionText}</div>
+              <div className='question-text'>{isHardMode ? questionSet[questions[currentQuestion]].hardQuestionText : questionSet[questions[currentQuestion]].questionText}</div>
             </div>
             <div className='answer-section'>
               {answerSet.map((answerOption) => (
@@ -204,7 +204,7 @@ function App() {
             <div className='question-count'>
               <span>Pergunta {currentQuestion + 1}</span>/{questions.length}
             </div>
-            <div className='question-text'>{questionSet[questions[currentQuestion]].questionText}</div>
+            <div className='question-text'>{isHardMode ? questionSet[questions[currentQuestion]].hardQuestionText : questionSet[questions[currentQuestion]].questionText}</div>
             <div className='show-answer'>
               <div className='show-answer-imgs'>
               {lastAnswer === questions[currentQuestion] ? (
