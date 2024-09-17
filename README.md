@@ -11,6 +11,9 @@ A atividade foi desenvolvida por:
 - Rui Duarte
 
 
+URL: https://pensar-como-ia.inesc-id.pt/
+
+
 ## Acknowledgements
 
 This project was based on a React quiz example by @chrisblakely01: https://github.com/chrisblakely01/quiz-app
