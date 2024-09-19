@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.ade3c7d7.css",
-    "main.js": "./static/js/main.867c2510.js",
+    "main.css": "./static/css/main.607d017f.css",
+    "main.js": "./static/js/main.9abb8112.js",
     "static/js/453.ec991295.chunk.js": "./static/js/453.ec991295.chunk.js",
     "static/media/app-img.png": "./static/media/app-img.084f5235a002c0843aee.png",
     "static/media/conv_anim.gif": "./static/media/conv_anim.fd4830369bf2455c71e9.gif",
@@ -16,12 +16,12 @@
     "static/media/checked-tick.svg": "./static/media/checked-tick.88f7ca275c293991cc7c30eccffbf986.svg",
     "static/media/Neural_network.svg": "./static/media/Neural_network.0d99f4ce0bb718df3354720b7fc03dcb.svg",
     "index.html": "./index.html",
-    "main.ade3c7d7.css.map": "./static/css/main.ade3c7d7.css.map",
-    "main.867c2510.js.map": "./static/js/main.867c2510.js.map",
+    "main.607d017f.css.map": "./static/css/main.607d017f.css.map",
+    "main.9abb8112.js.map": "./static/js/main.9abb8112.js.map",
     "453.ec991295.chunk.js.map": "./static/js/453.ec991295.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade3c7d7.css",
-    "static/js/main.867c2510.js"
+    "static/css/main.607d017f.css",
+    "static/js/main.9abb8112.js"
   ]
 }
