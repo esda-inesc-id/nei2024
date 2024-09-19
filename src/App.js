@@ -10,7 +10,34 @@ import ussImg from "./assets/team/ussumane.soare.png"
 import gustImg from "./assets/team/gustavo.jacinto.png"
 import ruiImg from './assets/team/rui.duarte.png';
 import questionSet from './questions';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
+// based on https://medium.com/@attarfarnoosh/tracking-page-visits-in-react-using-local-storage-573be0055691
+function Counter() {
+  const startDate = new Date("2024-09-27T17:00:00")
+  const endDate = new Date("2024-09-28T00:00:00")
+  const currDate = new Date()
+
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    if (startDate > currDate) {
+      localStorage.setItem("pageVisits", 0)
+    }
+    else if (startDate <= currDate && currDate < endDate ) {
+      const storedCount = localStorage.getItem("pageVisits")
+      const initialCount = Number(storedCount) || 0
+      setCount(initialCount + 1)
+      localStorage.setItem("pageVisits", initialCount + 1)
+    } else {
+      const storedCount = localStorage.getItem("pageVisits")
+      const initialCount = Number(storedCount) || 0
+      setCount(initialCount)
+    }
+  }, []);
+
+  return <p className='visits'>{count}</p>
+}
 
 function getRandomSubarray(arr, size) {
   var shuffled = arr.slice(0)
@@ -102,6 +129,7 @@ function App() {
             </div>
           </div>
           <img className='app-img' src={appImg} />
+          <Counter />
         </>
       );
 

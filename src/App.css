@@ -25,6 +25,11 @@
 	margin-bottom: 50px;
 }
 
+.visits {
+  text-align: center;
+  color: #e0851c;
+}
+
 .score-section {
   display: flex;
   font-size: 24px;
